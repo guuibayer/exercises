@@ -1,4 +1,5 @@
 import FactorialSpec
+import GuardSpec
 import Test.Tasty (TestTree, testGroup, defaultMain)
 
 main = defaultMain tests
@@ -9,4 +10,5 @@ tests =
     "exercises"
     [
       factorialSpec
+      , guardSpec
     ]
